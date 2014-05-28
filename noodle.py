@@ -35,9 +35,13 @@ class Noodle(object):
         """
         Gets the track id from URL
         """
-        client = soundcloud.Client(client_id=client_id)
-        track = client.get('/resolve', url=self.url)
-        return track.id
+        try:
+            client = soundcloud.Client(client_id=client_id)
+            track = client.get('/resolve', url=self.url)
+            return track.id
+        except Exception as e:
+            raise e
+            return False
 
     @property
     def _is_downloadable(self):

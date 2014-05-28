@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='noodle',
-    version='0.2',
+    version='0.3',
     py_modules=['noodle'],
     description='A stupid command-line soundcloud track downloader with puns',
     url='http://github.com/itsnauman/noodle',
@@ -14,6 +14,7 @@ setup(
         'requests',
         'soundcloud',
         'termcolor',
+        'click',
     ],
     entry_points='''
         [console_scripts]
