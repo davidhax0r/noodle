@@ -95,6 +95,3 @@ def downloader(url):
             click.echo(app.download_link)
             #Opens the download link in users browser
             webbrowser.open(app.download_link)
-
-if __name__ == "__main__":
-    downloader()
