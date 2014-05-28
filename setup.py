@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name='noodle',
-    version='0.1',
+    version='0.2',
     py_modules=['noodle'],
-    description='A stupid command-line soundcloud track downloader',
+    description='A stupid command-line soundcloud track downloader with puns',
     url='http://github.com/itsnauman/noodle',
     author='Nauman Ahmad',
     author_email='nauman-ahmad@outlook.com',
