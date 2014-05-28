@@ -1,0 +1,16 @@
+$ _noodle
+
+A stupid command-line soundcloud track downloader, keep in mind it doesn't offer a wide range of functionality and may contain bugs :)
+
+Installation:
+-------------
+Use pip for installation, pip install noodle
+
+Usage:
+------
+noodle takes one required paramater that is the url of the track on soundcloud,
+$ noodle --url=https://soundcloud.com/karlsounds/selena-gomez-slow-down
+
+Todo:
+ - Check if the api is down
+ - make it more stupid
