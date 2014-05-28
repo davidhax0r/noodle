@@ -12,5 +12,6 @@ noodle takes one required paramater that is the url of the track on soundcloud,
 $ noodle --url=https://soundcloud.com/karlsounds/selena-gomez-slow-down
 
 Todo:
+-----
  - Check if the api is down
  - make it more stupid
